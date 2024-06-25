@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>love you</title>
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+<a herf=m.html/>
+               <div id='heart' class='button'></div>
+            </a>
+            </ul>
+</nav>
+<main>
+<h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; maramyy</h1>
+</main>
+
+    </body>
+</html>
+<style>< {
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  display: block;
+}
+
+
+footer{
+    padding-bottom: 10px solid #221811;
+    border-top: 2px solid #221811;
+    background-color:#D2B48C;
+   font-size:.60em;
+   text-align:center;
+   font-style:italic;
+}
+
+body {
+  background-image: url(background.gif);
+  background-color: lightblue;
+  color: #221811;
+  font-family: Verdana, Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+
+
+
+
+
+nav ul {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+nav {
+  float: left;
+  width: 100px;
+  padding-top: 10px;
+  padding-left: 25px;
+text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+nav a:link { 
+  color: black;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+}
+nav a{text-decoration:none}
+
+.button{
+	width: 50px;
+	height: 50px;
+  top:50%;
+  position: fixed;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -50px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}
+.button:hover{
+
+}
+ {
+    text-align: center;
+  }
+
+
+#heart {
+    width: 100px;
+    height: 90px;
+    transition: background 0.5s ease;
+}
+#heart:before,
+#heart:after {
+	transition: background 0.5s ease;
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: pink;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+</style>
+ <script>
+        // JavaScript to handle the button click event
+        document.getElementById("heart").onclick = function () {
+            window.location.href = "m.html";  // Redirect to m.html in the same directory
+        };
+    </script>
